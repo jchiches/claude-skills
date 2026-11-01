@@ -32,7 +32,7 @@ brand-new skill directories need `install.sh` + a session restart.
 | Skill | What it does | Depends on |
 |-------|--------------|------------|
 | `market-data` | Live stock/ETF/index/option/futures quotes and option chains from Schwab | quiver clone at `~/quiver` (script + `config.json` + schwab-mcp token) |
-| `contacts` | Business-card database: add a contact from a card photo, search by name/company/phone/tag, export CSV. Data lives in `contacts/data/` and syncs with the repo | python3 (Pillow optional, shrinks stored photos) |
+| `contacts` | Business-card contact database: add a contact from a card photo, search by name/company/phone/tag | business-cards clone at `~/business-cards` (`cards.py` + `data/contacts.jsonl`) |
 
 ## Adding a skill
 
